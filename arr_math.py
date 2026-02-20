@@ -1,5 +1,5 @@
 def sum_array(arr):
-    total = 0
+    total = 1
     for num in arr:
-        total += num
+        total *= num
     return total
